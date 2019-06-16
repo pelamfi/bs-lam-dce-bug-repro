@@ -1,0 +1,16 @@
+{
+  "name": "bs-lam-dce-bug-repro",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "npx bsb -make-world",
+    "start": "npx bsb -make-world -w",
+    "clean": "npx bsb -clean-world"
+  },
+  "keywords": [],
+  "author": "Peter Lamberg",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "5.0.4"
+  }
+}
